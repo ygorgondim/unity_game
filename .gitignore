@@ -1,0 +1,40 @@
+# Unity-generated folders
+UnityProject/[Ll]ibrary/
+UnityProject/[Tt]emp/
+UnityProject/[Oo]bj/
+UnityProject/[Ll]ogs/
+UnityProject/[Uu]ser[Ss]ettings/
+UnityProject/[Mm]emoryCaptures/
+
+# Local builds and IDE files
+UnityProject/[Bb]uild/
+UnityProject/[Bb]uilds/
+UnityProject/.vs/
+UnityProject/*.csproj
+UnityProject/*.sln
+UnityProject/*.slnx
+UnityProject/*.user
+UnityProject/*.suo
+UnityProject/.vscode/
+UnityProject/[Cc]rash[Rr]eports/
+UnityProject/[Rr]ecordings/
+UnityProject/.idea/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Local editor/agent state
+.agents/
+.codex/
+node_modules/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

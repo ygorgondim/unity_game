@@ -1,0 +1,16 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "follows": true,
+    "hiddenOnFall": true,
+    "hiddenOnElimination": true,
+    "restores": true,
+    "activePersonalLights": 4,
+    "aimRings": 0,
+    "shaderSupported": true,
+    "shaderMessages": [],
+    "frame": 291
+  }
+}

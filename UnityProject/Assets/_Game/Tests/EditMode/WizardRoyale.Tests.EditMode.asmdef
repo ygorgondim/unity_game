@@ -1,0 +1,14 @@
+{
+  "name": "WizardRoyale.Tests.EditMode",
+  "rootNamespace": "WizardRoyale.Tests",
+  "references": [
+    "WizardRoyale.Domain",
+    "WizardRoyale.Simulation"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

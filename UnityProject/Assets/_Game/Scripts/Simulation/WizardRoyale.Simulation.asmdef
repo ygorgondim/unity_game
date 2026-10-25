@@ -1,0 +1,7 @@
+{
+  "name": "WizardRoyale.Simulation",
+  "rootNamespace": "WizardRoyale.Simulation",
+  "references": [
+    "WizardRoyale.Domain"
+  ]
+}

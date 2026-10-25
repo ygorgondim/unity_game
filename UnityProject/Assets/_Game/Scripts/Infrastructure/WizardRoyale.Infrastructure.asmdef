@@ -1,0 +1,10 @@
+{
+  "name": "WizardRoyale.Infrastructure",
+  "rootNamespace": "WizardRoyale.Infrastructure",
+  "references": [
+    "WizardRoyale.Domain",
+    "WizardRoyale.Simulation",
+    "WizardRoyale.Presentation",
+    "Unity.InputSystem"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "simulatedSeconds": 21,
+    "maximum": 675,
+    "impacts": 97,
+    "countBeforeReset": 258,
+    "cleared": true,
+    "particleObjectsBefore": 16,
+    "particleObjectsAfter": 16,
+    "retainedImpacts": 96,
+    "hardParticleCapacity": 2880
+  }
+}

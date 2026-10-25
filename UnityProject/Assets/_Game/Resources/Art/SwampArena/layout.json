@@ -1,0 +1,33 @@
+{
+  "width": 1448, "height": 1086, "pixelsPerUnit": 120,
+  "resourceRoot": "Art/SwampArena", "swamp": true,
+  "origin": { "x": 724, "y": 525 },
+  "spawnPixels": [ {"x":484,"y":369}, {"x":964,"y":369}, {"x":964,"y":681}, {"x":484,"y":681} ],
+  "floor": [
+    {"x":116,"y":515}, {"x":158,"y":425}, {"x":230,"y":360},
+    {"x":330,"y":302}, {"x":450,"y":260}, {"x":580,"y":235},
+    {"x":730,"y":229}, {"x":885,"y":253}, {"x":1030,"y":294},
+    {"x":1150,"y":354}, {"x":1240,"y":429}, {"x":1290,"y":516},
+    {"x":1295,"y":605}, {"x":1243,"y":691}, {"x":1147,"y":753},
+    {"x":1015,"y":799}, {"x":871,"y":826}, {"x":717,"y":839},
+    {"x":560,"y":822}, {"x":417,"y":791}, {"x":296,"y":742},
+    {"x":201,"y":675}, {"x":141,"y":600}
+  ],
+  "props": [
+    {"name":"Rear Root Stump", "rect":{"x":494,"y":15,"z":405,"w":263}, "basePixel":{"x":700,"y":242}, "collisionPixels":[{"x":620,"y":229,"z":44},{"x":710,"y":224,"z":52},{"x":800,"y":238,"z":38}]},
+    {"name":"Rear Left Stone Totem", "rect":{"x":402,"y":135,"z":146,"w":151}, "basePixel":{"x":482,"y":259}, "collisionPixels":[{"x":482,"y":249,"z":32}]},
+    {"name":"Left Wooden Column", "rect":{"x":223,"y":211,"z":112,"w":169}, "basePixel":{"x":278,"y":353}, "collisionPixels":[{"x":278,"y":344,"z":27}]},
+    {"name":"Rear Right Wooden Column", "rect":{"x":895,"y":124,"z":107,"w":159}, "basePixel":{"x":945,"y":260}, "collisionPixels":[{"x":945,"y":250,"z":25}]},
+    {"name":"Right Stone Totem", "rect":{"x":1091,"y":208,"z":148,"w":187}, "basePixel":{"x":1167,"y":360}, "collisionPixels":[{"x":1167,"y":349,"z":35}]},
+    {"name":"Front Left Stone Totem", "rect":{"x":122,"y":513,"z":151,"w":204}, "basePixel":{"x":201,"y":676}, "collisionPixels":[{"x":201,"y":659,"z":36}]},
+    {"name":"Front Right Wooden Column", "rect":{"x":1190,"y":508,"z":133,"w":213}, "basePixel":{"x":1250,"y":686}, "collisionPixels":[{"x":1250,"y":675,"z":31}]},
+    {"name":"Front Left Stump", "rect":{"x":467,"y":679,"z":125,"w":176}, "basePixel":{"x":531,"y":819}, "collisionPixels":[{"x":531,"y":802,"z":29}]},
+    {"name":"Front Right Stump", "rect":{"x":915,"y":695,"z":103,"w":160}, "basePixel":{"x":963,"y":821}, "collisionPixels":[{"x":963,"y":807,"z":28}]}
+  ],
+  "foliage": [
+    {"name":"Front Left Reeds", "rect":{"x":255,"y":588,"z":193,"w":192}, "basePixel":{"x":350,"y":748}},
+    {"name":"Front Center Grass", "rect":{"x":548,"y":738,"z":130,"w":127}, "basePixel":{"x":600,"y":832}},
+    {"name":"Front Right Reeds", "rect":{"x":992,"y":666,"z":153,"w":161}, "basePixel":{"x":1050,"y":793}},
+    {"name":"Right Edge Flowers", "rect":{"x":1140,"y":624,"z":102,"w":107}, "basePixel":{"x":1190,"y":710}}
+  ]
+}

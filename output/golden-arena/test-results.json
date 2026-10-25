@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "duration": 0.45,
+  "summary": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ArenaBoundary_ExcludesWaterAndRockFaces",
+      "Status": "Passed",
+      "Duration": 0.015337,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.Countdown_DoesNotConsumeMatchClock",
+      "Status": "Passed",
+      "Duration": 0.0065364,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.CrossingPickup_ChangesSpellAndResetsAttackCooldown",
+      "Status": "Passed",
+      "Duration": 0.0069563,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ExplosiveSpell_ArmsOnImpactAndCanDamageItsOwner",
+      "Status": "Passed",
+      "Duration": 0.0156543,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.FloorMask_MatchesTheGameplayContour",
+      "Status": "Passed",
+      "Duration": 0.0727844,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.Knockback_UsesLegacyCurveAndZeroHpOverride",
+      "Status": "Passed",
+      "Duration": 0.00055,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LeavingFloor_StartsFallAndCostsOneLife(1360.0f,1740.0f)",
+      "Status": "Passed",
+      "Duration": 0.0010567,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LeavingFloor_StartsFallAndCostsOneLife(100.0f,100.0f)",
+      "Status": "Passed",
+      "Duration": 0.0003469,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LightningSpell_ChargesThenHitsEveryPlayerOnItsClearLine",
+      "Status": "Passed",
+      "Duration": 0.0017313,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LightningSpell_LocksItsOriginAndDirectionWhenCastStarts",
+      "Status": "Passed",
+      "Duration": 0.0009903,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.MatchStart_GivesTheStandardSpellToEveryPlayer",
+      "Status": "Passed",
+      "Duration": 0.0004985,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ObstacleLayout_UsesTheExactCollisionGeometry",
+      "Status": "Passed",
+      "Duration": 0.001701,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.PickupSpawner_CreatesASpecialSpellAfterInitialDelay",
+      "Status": "Passed",
+      "Duration": 0.0007359,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.PlayerMovement_UsesConfiguredBaseSpeed",
+      "Status": "Passed",
+      "Duration": 0.0003293,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.SlimeSpell_BouncesOffArenaBorder",
+      "Status": "Passed",
+      "Duration": 0.0012192,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.WaterSpell_CreatesPuddleThatSlowsPlayers",
+      "Status": "Passed",
+      "Duration": 0.0008598,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.WeaponCatalog_DefinesTheFourSpecialSpells",
+      "Status": "Passed",
+      "Duration": 0.0003776,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

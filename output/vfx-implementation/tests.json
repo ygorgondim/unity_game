@@ -1,0 +1,181 @@
+{
+  "status": "completed",
+  "duration": 0.49,
+  "summary": {
+    "total": 24,
+    "passed": 19,
+    "failed": 5,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ArenaBoundary_ExcludesWaterAndRockFaces",
+      "Status": "Passed",
+      "Duration": 0.0157917,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.Countdown_DoesNotConsumeMatchClock",
+      "Status": "Passed",
+      "Duration": 0.0065284,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.CrossingPickup_ChangesSpellAndResetsAttackCooldown",
+      "Status": "Passed",
+      "Duration": 0.0087262,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ExpiredProjectile_DoesNotReportACharacterImpact",
+      "Status": "Passed",
+      "Duration": 0.0051031,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ExplosiveSpell_ArmsOnImpactAndCanDamageItsOwner",
+      "Status": "Passed",
+      "Duration": 0.0065148,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.FloorMask_MatchesTheGameplayContour",
+      "Status": "Passed",
+      "Duration": 0.1057732,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.Knockback_UsesLegacyCurveAndZeroHpOverride",
+      "Status": "Passed",
+      "Duration": 0.0005651,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LeavingFloor_StartsFallAndCostsOneLife(1360.0f,1740.0f)",
+      "Status": "Passed",
+      "Duration": 0.0010061,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LeavingFloor_StartsFallAndCostsOneLife(100.0f,100.0f)",
+      "Status": "Passed",
+      "Duration": 0.0003571,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LightningSpell_ChargesThenHitsEveryPlayerOnItsClearLine",
+      "Status": "Failed",
+      "Duration": 0.0062416,
+      "Message": "  Expected: 470.0f +/- 0.00100000005f\r\n  But was:  440.0f\r\n",
+      "StackTrace": "at WizardRoyale.Tests.MatchSimulationTests.LightningSpell_ChargesThenHitsEveryPlayerOnItsClearLine () [0x0009e] in C:\\Users\\ygora\\Documents\\GitHub\\Game_Unity\\UnityProject\\Assets\\_Game\\Tests\\EditMode\\MatchSimulationTests.cs:227\r\n"
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.LightningSpell_LocksItsOriginAndDirectionWhenCastStarts",
+      "Status": "Failed",
+      "Duration": 0.0019718,
+      "Message": "  Expected: 470.0f +/- 0.00100000005f\r\n  But was:  440.0f\r\n",
+      "StackTrace": "at WizardRoyale.Tests.MatchSimulationTests.LightningSpell_LocksItsOriginAndDirectionWhenCastStarts () [0x000d2] in C:\\Users\\ygora\\Documents\\GitHub\\Game_Unity\\UnityProject\\Assets\\_Game\\Tests\\EditMode\\MatchSimulationTests.cs:252\r\n"
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.MatchStart_GivesTheStandardSpellToEveryPlayer",
+      "Status": "Passed",
+      "Duration": 0.0006042,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.MovingProjectiles_UseThirtyPercentFasterSpeeds(Energy,3.64f)",
+      "Status": "Failed",
+      "Duration": 0.0005264,
+      "Message": "  Expected: 3.6400001f +/- 0.00100000005f\r\n  But was:  3.0f\r\n",
+      "StackTrace": "at WizardRoyale.Tests.MatchSimulationTests.MovingProjectiles_UseThirtyPercentFasterSpeeds (WizardRoyale.Domain.WeaponType weapon, System.Single expectedSpeed) [0x00000] in C:\\Users\\ygora\\Documents\\GitHub\\Game_Unity\\UnityProject\\Assets\\_Game\\Tests\\EditMode\\MatchSimulationTests.cs:110\r\n"
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.MovingProjectiles_UseThirtyPercentFasterSpeeds(Explosive,3.38f)",
+      "Status": "Passed",
+      "Duration": 9.15E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.MovingProjectiles_UseThirtyPercentFasterSpeeds(Slime,4.16f)",
+      "Status": "Passed",
+      "Duration": 0.0001222,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.MovingProjectiles_UseThirtyPercentFasterSpeeds(Water,3.25f)",
+      "Status": "Passed",
+      "Duration": 8.35E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.ObstacleLayout_UsesTheExactCollisionGeometry",
+      "Status": "Passed",
+      "Duration": 0.0017606,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.OrbitalContact_ReportsItsOwnElementWithoutAProjectile",
+      "Status": "Passed",
+      "Duration": 0.0024965,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.PickupSpawner_CreatesASpecialSpellAfterInitialDelay",
+      "Status": "Passed",
+      "Duration": 0.0008283,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.PlayerMovement_UsesConfiguredBaseSpeed",
+      "Status": "Failed",
+      "Duration": 0.0005855,
+      "Message": "  Expected: 1.0f\r\n  But was:  1.20000005f\r\n",
+      "StackTrace": "at WizardRoyale.Tests.MatchSimulationTests.PlayerMovement_UsesConfiguredBaseSpeed () [0x000b0] in C:\\Users\\ygora\\Documents\\GitHub\\Game_Unity\\UnityProject\\Assets\\_Game\\Tests\\EditMode\\MatchSimulationTests.cs:133\r\n"
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.SlimeSpell_BouncesOffArenaBorder",
+      "Status": "Passed",
+      "Duration": 0.0013632,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.SpellImpact_PreservesCastElementAfterWeaponChangeAndSurvivesMultipleTicks",
+      "Status": "Passed",
+      "Duration": 0.0018357,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.WaterSpell_CreatesPuddleThatSlowsPlayers",
+      "Status": "Passed",
+      "Duration": 0.0009125,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WizardRoyale.Tests.MatchSimulationTests.WeaponCatalog_DefinesTheFourSpecialSpells",
+      "Status": "Failed",
+      "Duration": 0.0004069,
+      "Message": "  Expected: 28.0f\r\n  But was:  64.0f\r\n",
+      "StackTrace": "at WizardRoyale.Tests.MatchSimulationTests.WeaponCatalog_DefinesTheFourSpecialSpells () [0x00000] in C:\\Users\\ygora\\Documents\\GitHub\\Game_Unity\\UnityProject\\Assets\\_Game\\Tests\\EditMode\\MatchSimulationTests.cs:98\r\n"
+    }
+  ]
+}

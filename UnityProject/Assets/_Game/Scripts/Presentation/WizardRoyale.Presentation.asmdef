@@ -1,0 +1,11 @@
+{
+  "name": "WizardRoyale.Presentation",
+  "rootNamespace": "WizardRoyale.Presentation",
+  "references": [
+    "WizardRoyale.Domain",
+    "WizardRoyale.Simulation",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ]
+}
